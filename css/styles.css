@@ -1,0 +1,50 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    max-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: seperate;
+    padding: 0.5rem;
+
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+  
+}
+
+a:hover,  a::before, a:visited{
+    color: rgb(111, 114, 114);
+    
+background-color: rgb(13, 104, 104);
+border-radius: 1rem;
+
+ 
+}
+
+a{
+    text-decoration: none;
+    padding-inline: 0.5rem;
+
+
+}
+
+
+
